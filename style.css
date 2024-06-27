@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.section1 {
+    width: 100%;
+    height: 100%;
+   position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+nav p {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(0, 56, 37);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+nav i {
+    font-size: 22px;
+}
+
+nav  button {
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    background: transparent;
+}
+
+
+/* center section */
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+   
+    padding: 60px;
+}
+
+.cernte-section-1 {
+    height: 100%;
+    width: 45%;
+    
+}
+
+.cernte-section-1 h1 {
+    font-size: 32px;
+    padding: 5px 0px;
+    line-height: 1.2;
+}
+
+.cernte-section-1 p {
+    font-size: 18px;
+    padding: 5px 0;
+    width: 90%;
+    line-height: 1.4;
+}
+
+.cernte-section-1 button {
+    background-color: rgb(0, 56, 37);
+    border: none;
+    padding: 12px 24px;
+    color: #fff;
+    border-radius: 14px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+
+
+.cernte-section-2 {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cernte-section-2 img {
+   
+    width: 50%;
+    height: 100%;
+}
+
+.plants-section {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.plants-section img {
+
+    height: 100PX;
+    object-fit: cover;
+    padding: 12px 0px;
+}
+
+.section-2 {
+    height: 20vh;
+    padding: 12px 20px;
+    display: grid;
+
+    
+}
+
+.plants-cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.plants-cat p {
+    width: 50%;
+}
+
+.plants-cat h3 {
+ background: linear-gradient(#008c91, #003825);
+ color: #fff;
+ padding: 10px 20px;
+ border-radius: 5px;
+}
+
+.container {
+    height: 90vh;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.elem {
+    flex-shrink: 0;
+    height: 200px;
+    width: 47%;
+    border-radius: 30px;
+    display: flex;
+
+    border: 3px solid #000000;
+    box-shadow: 0px 5px 0px rgb(2, 2, 2);
+    padding: 20px;
+
+}
+
+
+
+.elem h2 {
+    font-size: 15px;
+}
+
+.elem-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.elem-img img {
+    height: 100px;
+  
+  
+}
+
+
+.elem h4 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.elem h4:hover {
+    transform: scale(1.1);
+    transition: transform .5s ease-in;
+}
+.elem-part1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.dark {
+    background-color: #003825;
+    color: #fff;
+}
+
